@@ -1,17 +1,16 @@
 body {
-  background-color: #f9f7fe;
-  font-family: sans-serif;
+  background-color: #7e8c92;
+  font-family: 'Montserrat';
 }
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 h2 {
   margin: 0 0 5px;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 select {
@@ -25,26 +24,26 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
-  padding: 30px;
+  background: rgb(236, 235, 235);
+  padding: 28px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
+  
 }
+.main-cities {
+  text-align: center;
+  display: block;
+  padding: 50px;
+}
+
 .city {
   display: flex;
   margin: 10px 0;
   justify-content: space-between;
   padding: 30px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px rgba(44, 44, 44, 0.8);
 }
 
-.city:last-child {
-  border: none;
-}
-
-.date {
-  opacity: 0.7;
-}
 
 .time {
   font-size: 48px;
@@ -60,5 +59,5 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(44, 44, 44, 0.8);
 }
